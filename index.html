@@ -9,11 +9,53 @@
 </head>
 
 <body>
-    <div class="search">
-        <input type="text" id="city" placeholder="Enter a city">
-        <button onclick=" getWeather()"> Search </button>
+    <div class="container">
+
+        
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter a city">
+            <button> Search </button>
+        </div>
+
+        <div class="entire-Forecast">
+        </div>
+
+        
+
+    </div>
+        
+
+
+    <template id="weather-template">
+        <div class="Place">
+            <h2><span id="cityName"> h </span> </h2>
+            <h4> <span id="description"></span></h4>
+        </div>
+        
+    
+        <div class="image">
+            <img src="heelo" alt="India">
+        </div>
+    
+        <div class="weather">
+            
+            <div class="weather-info">
+    
+                <div class="temp"> 
+                    <h3> Temperature: <span id="temp"> </span> </h3>
+                </div>
+                <div class="humidity"> 
+                    <h3> Humidity: <span id="humidity"> </span> </h3>
+                </div>
+                <div class="wind"> 
+                    <h3> Wind: <span id="wind"> </span> </h3>
+                </div>
+            </div>
         
     </div>
-    </div>
+    </template>
+
+
 </body>
 </html>
+
