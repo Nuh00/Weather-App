@@ -4,6 +4,114 @@
     box-sizing: border-box;
 }
 
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
 body{
     font-family: 'Poppins', sans-serif;
     background: #222;
@@ -14,24 +122,12 @@ body{
     margin: 0 auto;
     padding: 0 20px;
     height: auto;
-
-    border-radius: 10px;
-    
-    background-color: darkolivegreen;
-
-
-   
-     
-
-    
+    border-radius: 10px; 
 }
 
 
 
 .search{
-
-    
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,14 +142,24 @@ body{
 
 .search input {
     font-size: 1.5em; /* Adjust as needed */
-    padding: 10px; /* Adjust as needed */
+    padding: 8px;
     border-radius: 10px;
+
 }
+
+
 
 .search button {
     font-size: 1.5em; /* Adjust as needed */
     padding: 10px; /* Adjust as needed */
     border-radius: 10px;
+}
+
+.search button:hover{
+    transition: 0.5s;
+    background-color: cornflowerblue;
+    color: #000;
+    cursor: pointer;
 }
 
 
@@ -72,29 +178,22 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 1.5em;
-    
-    
-
 }
+
+
 
 
 /* This is the IMAGE CSS */
 .image{
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
-    
+    align-items: center;  
 }
 
 img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    
-    
-
 }
 
 
@@ -108,17 +207,22 @@ img{
     align-items: center;
     margin-top: 50px;
     padding: 50px;
-    background-color: #fff;
+    
     border-radius: 10px;
     color: #000;
-    font-size: 1.5em;
-    font-weight: 600;
+    
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 1.5em;
-    
-    
+}
+
+
+/*  Entire forecast INFO CSS */
+
+
+.entire-Forecast{
+    border-radius: 10px;
 }
 
 

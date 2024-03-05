@@ -1,7 +1,7 @@
 const button = document.querySelector('button');
 
 
-const ACCESS_KEY = 'e010a098fe24fdbb489eb5b1bfe1451f'
+const ACCESS_KEY = '5118544c57c975459d781470ece91c5f'
 
 const container = document.querySelector('.container');
 const template = document.querySelector('#weather-template');
@@ -11,6 +11,7 @@ const templateContainer = document.querySelector('.entire-Forecast');
 
 button.addEventListener('click', ()=>{
     getWeather();
+    templateContainer.style.backgroundColor= 'white';
 }); 
 
 
